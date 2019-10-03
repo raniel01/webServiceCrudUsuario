@@ -1,5 +1,5 @@
 <?php
-$conecta = mysqli_connect("localhost","id11034011_crudusuario", "crudusuario", "id11034011_crudusuario")
+$conecta = mysqli_connect("localhost","id11034011_crudusuario", "crudusuario", "id11034011_crudusuario");
                          //local        usuario                     senha          banco
 $nome = $_POST['nome'];
 $email = $_POST['email'];
