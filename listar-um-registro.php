@@ -1,11 +1,11 @@
 <?php
 include('conn.php');
 
-$codigo = $_GET['codigo'];
+$codigo = $_POST['codigo'];
 
 $query = "SELECT * FROM tb_usuario where cd_usuario = $codigo";
 
-$result = mysqli_query($conecta;$query);
+$result = mysqli_query($conecta,$query);
 
 while($linha = mysqli_fetch_assoc($result)){
     $registros = array(
